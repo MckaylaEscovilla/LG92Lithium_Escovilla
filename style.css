@@ -1,0 +1,12 @@
+#welcome{
+    text-align: center;
+}
+#source{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-left: 31vw;
+}
+.buttons{
+    margin-left: 42vw;
+}

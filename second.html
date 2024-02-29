@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="welcome">Welcome to the Second Page!</h1>
+    <img id="source" src="ruanmei.jpg">
+    <script>
+        function changeImage(){
+            source.src = 'arlecchino.jpg';
+        }
+        function revertImage(){
+            source.src = 'ruanmei.jpg';
+        }
+    </script>
+    <div class="buttons">
+        <button id="change" onclick="changeImage()">Change Image</button>
+        <button id="revert" onclick="revertImage()">Revert Image</button>
+    </div>
+</body>
+</html>
